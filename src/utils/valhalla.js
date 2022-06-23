@@ -1,6 +1,7 @@
 import { decode } from './polyline'
 
-export const VALHALLA_OSM_URL = 'https://valhalla1.openstreetmap.de'
+export const { REACT_APP_VALHALLA_OSM_URL } = process.env
+export const VALHALLA_OSM_URL = REACT_APP_VALHALLA_OSM_URL
 
 export const buildLocateRequest = (latLng, profile) => {
   let valhalla_profile = profile

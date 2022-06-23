@@ -1,8 +1,10 @@
 import axios from 'axios'
 
-export const NOMINATIM_URL = 'https://nominatim.openstreetmap.org/search'
-export const NOMINATIME_URL_REVERSE =
-  'https://nominatim.openstreetmap.org/reverse'
+export const { REACT_APP_NOMINATIM_URL } = process.env
+export const { REACT_APP_NOMINATIME_URL_REVERSE } = process.env
+
+export const NOMINATIM_URL = REACT_APP_NOMINATIM_URL
+export const NOMINATIME_URL_REVERSE = REACT_APP_NOMINATIME_URL_REVERSE
 
 export const forward_geocode = userInput =>
   axios.get(NOMINATIM_URL, {
