@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5dad1832.chunk.css",
+    "main.js": "/static/js/main.0bf78b66.chunk.js",
+    "main.js.map": "/static/js/main.0bf78b66.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cc4e8e04.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cc4e8e04.js.map",
+    "static/css/2.3e3c7d19.chunk.css": "/static/css/2.3e3c7d19.chunk.css",
+    "static/js/2.2512c92e.chunk.js": "/static/js/2.2512c92e.chunk.js",
+    "static/js/2.2512c92e.chunk.js.map": "/static/js/2.2512c92e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.267afb5167e22ea7bbf11cabf7cc500d.js": "/precache-manifest.267afb5167e22ea7bbf11cabf7cc500d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.3e3c7d19.chunk.css.map": "/static/css/2.3e3c7d19.chunk.css.map",
+    "static/css/main.5dad1832.chunk.css.map": "/static/css/main.5dad1832.chunk.css.map",
+    "static/js/2.2512c92e.chunk.js.LICENSE.txt": "/static/js/2.2512c92e.chunk.js.LICENSE.txt",
+    "static/media/L.Control.Heightgraph.min.css": "/static/media/remove.b333a4e1.svg",
+    "static/media/bike.ce8662c1.svg": "/static/media/bike.ce8662c1.svg",
+    "static/media/index.css": "/static/media/valhalla.74aa7fb2.png",
+    "static/media/bus.4f4b6969.svg": "/static/media/bus.4f4b6969.svg",
+    "static/media/car.a4334245.svg": "/static/media/car.a4334245.svg",
+    "static/media/pedestrian.404f0602.svg": "/static/media/pedestrian.404f0602.svg",
+    "static/media/scooter.54697a47.svg": "/static/media/scooter.54697a47.svg",
+    "static/media/truck.5e609731.svg": "/static/media/truck.5e609731.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc4e8e04.js",
+    "static/css/2.3e3c7d19.chunk.css",
+    "static/js/2.2512c92e.chunk.js",
+    "static/css/main.5dad1832.chunk.css",
+    "static/js/main.0bf78b66.chunk.js"
+  ]
+}
