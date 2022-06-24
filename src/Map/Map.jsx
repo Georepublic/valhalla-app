@@ -681,7 +681,9 @@ class Map extends React.Component {
       this.setState({ isHeightLoading: true, heightPayload })
       axios
         .post(VALHALLA_OSM_URL + '/height', heightPayload, {
-          headers: {}
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+          }
         })
         .then(({ data }) => {
           this.setState({ isHeightLoading: false })
