@@ -657,7 +657,7 @@ class Map extends React.Component {
     axios
       .post(VALHALLA_OSM_URL + '/locate', buildLocateRequest(latlng, profile), {
         headers: {
-          'Content-Type': 'application/json'
+          'Content-Type': 'text/plain'
         }
       })
       .then(({ data }) => {
@@ -682,7 +682,7 @@ class Map extends React.Component {
       axios
         .post(VALHALLA_OSM_URL + '/height', heightPayload, {
           headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'text/plain'
           }
         })
         .then(({ data }) => {
@@ -716,7 +716,7 @@ class Map extends React.Component {
         buildHeightRequest([[latLng.lat, latLng.lng]]),
         {
           headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'text/plain'
           }
         }
       )
