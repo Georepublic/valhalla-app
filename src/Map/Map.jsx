@@ -31,6 +31,10 @@ import {
 } from 'utils/valhalla'
 import { colorMappings, buildHeightgraphData } from 'utils/heightgraph'
 
+export const { REACT_APP_MAP_DEFAULT_LAT } = process.env
+export const { REACT_APP_MAP_DEFAULT_LON } = process.env
+export const { REACT_APP_MAP_DEFAULT_ZOOM } = process.env
+
 const OSMTiles = L.tileLayer(
   'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
   {
@@ -70,9 +74,9 @@ const excludePolygonsLayer = L.featureGroup()
 
 // a leaflet map consumes parameters, I'd say they are quite self-explanatory
 const mapParams = {
-  center: [48.209346, 16.372719],
+  center: [REACT_APP_MAP_DEFAULT_LAT, REACT_APP_MAP_DEFAULT_LON],
   zoomControl: false,
-  zoom: 10,
+  zoom: REACT_APP_MAP_DEFAULT_ZOOM,
   maxZoom: 18,
   minZoom: 3,
   layers: [
