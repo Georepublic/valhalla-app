@@ -680,9 +680,9 @@ class Map extends React.Component {
       this.hg._removeChart()
       this.setState({ isHeightLoading: true, heightPayload })
       axios
-        .post(VALHALLA_OSM_URL + '/height', heightPayload, {
+        .get(VALHALLA_OSM_URL + '/height', heightPayload, {
           headers: {
-            'Content-Type': 'application/x-www-form-urlencoded'
+            'Content-Type': 'application/json'
           }
         })
         .then(({ data }) => {
